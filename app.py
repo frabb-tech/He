@@ -20,7 +20,7 @@ Future versions will include:
 st.subheader("🧪 MVP Test Data Preview")
 
 # Generate mock risk scores
-regions = ["Lebanon", "Ukraine", "Syria", "Türkiye", "Georgia"]
+regions = ['Lebanon', 'Ukraine', 'Syria', 'Türkiye', 'Georgia', 'Armenia', 'Bosnia', 'Palestine', 'Afghanistan', 'Jordan']
 data = {
     "Country": regions,
     "Conflict Risk": np.random.rand(len(regions)) * 100,
