@@ -7,7 +7,7 @@ from datetime import datetime
 st.set_page_config(page_title="HEWRI Dashboard", layout="wide", page_icon="🛡️")
 
 # Logo and Title
-st.image("assets/logo.png", width=300)
+# st.image("assets/logo.png", width=300)
 st.title("HEWRI - Humanitarian Early Warning & Response Intelligence")
 st.markdown("""
 <style>
